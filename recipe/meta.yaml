@@ -1,5 +1,5 @@
 {% set name = "django-maintenance-mode" %}
-{% set version = "0.15.1" %}
+{% set version = "0.16.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-maintenance-mode-{{ version }}.tar.gz
-  sha256: d07102cab88dd707a82232f0c552c287e62aa53af582a0ca4f2aa31f14f5ed27
+  sha256: 3786bafa1adbbf4a818b60a01676073e82b89e39d60f1825d45bd544e547128b
 
 build:
   number: 0
